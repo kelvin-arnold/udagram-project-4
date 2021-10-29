@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: udagram-frontend
-          image: kelvinarnold/udagram-frontend:v3
+          image: kelvinarnold/udagram-frontend:v1
           ports:
             - containerPort: 8080
