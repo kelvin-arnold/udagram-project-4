@@ -4,8 +4,10 @@
 
 export const environment = {
   production: false,
-  appName: 'Udagram',
-  apiHost: 'http://localhost:8080/api/v0'
+  // tslint:disable-next-line:quotemark
+  appName: "Udagram",
+  // tslint:disable-next-line:quotemark
+  apiHost: "http://localhost:8080/api/v0",
 };
 
 /*
