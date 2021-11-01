@@ -6,8 +6,9 @@ export const environment = {
   production: false,
   // tslint:disable-next-line:quotemark
   appName: "Udagram",
-  // tslint:disable-next-line:quotemark
-  apiHost: "http://localhost:8080/api/v0",
+  apiHost:
+    // tslint:disable-next-line:quotemark
+    "http://aa83cd1dc16e34022877dfb1ff8d264a-215040423.sa-east-1.elb.amazonaws.com:8080/api/v0",
 };
 
 /*
