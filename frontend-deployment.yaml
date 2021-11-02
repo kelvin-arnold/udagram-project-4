@@ -17,5 +17,12 @@ spec:
       containers:
         - name: udagram-frontend
           image: kelvinarnold/udagram-frontend:v2
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "250m"
+            limits:
+              memory: "1024Mi"
+              cpu: "500m"
           ports:
             - containerPort: 8080
